@@ -16,6 +16,7 @@ Design Question
   d. Bug list
 
 Design filelist: 
+
 #testbench 
 /home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/testbench.sv
 
