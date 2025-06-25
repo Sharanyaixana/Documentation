@@ -1,40 +1,45 @@
-Design Question Documentation Index
-This documentation contains the index to each document for the design question.
+# Controller Assignment - Design & Verification Project
 
-**Refer to the readme in files for links**
+## Overview
+This repository contains a comprehensive digital controller design and verification project, including RTL implementation, testbenches, and supporting documentation.
 
-Design Question
-1.	Design
-  a. Design documentation
-  b. Animation presentation
-  c. CDC
-  d. LINT
-2.	Verify
-  a. Testbench explanation
-  b. Test plan (Excel) - Simulation wavefom
-  c. Code coverage
-  d. Bug list
+## Project Structure
 
-Design filelist: 
+### 📁 Design Components
+The design section includes the following deliverables:
 
-#testbench 
-/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/testbench.sv
+#### Design Documentation
+- **Design Documentation** - Detailed design specifications and architecture
+- **Animation Presentation** - Visual representation of design functionality  
+- **CDC (Clock Domain Crossing)** - Clock domain crossing analysis and implementation
+- **LINT** - Code quality and linting reports
 
-#rtl
-/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/top.sv
-/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/controller.sv
-/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/synchroniser.sv
+#### Design File List
+**Testbench:**
+- `/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/testbench.sv`
 
-Verification filelist: 
-#rtl
-/home/UshasiDas/digital/rtl/rtl_assignment/timing_module.v
-/home/UshasiDas/digital/rtl/rtl_assignment/control_module.v
-/home/UshasiDas/digital/rtl/rtl_assignment/analog_module.v
-/home/UshasiDas/digital/rtl/rtl_assignment/reset_synchronizer.v
-/home/UshasiDas/digital/rtl/rtl_assignment/top_module.v
+**RTL:**
+- `/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/top.sv`
+- `/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/controller.sv`
+- `/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/script/synchroniser.sv`
 
-#testbench
-/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/ushashi/regression_setup/test_bench/top_test.v
+### 🔬 Verification Components
+The verification section includes:
 
+#### Verification Documentation
+- **Testbench Explanation** - Detailed testbench architecture and methodology
+- **Test Plan (Excel)** - Comprehensive test scenarios and simulation waveforms
+- **Code Coverage** - Coverage analysis and reports
+- **Bug List** - Known issues and resolution status
 
+#### Verification File List
+**RTL:**
+- `/home/UshasiDas/digital/rtl/rtl_assignment/timing_module.v`
+- `/home/UshasiDas/digital/rtl/rtl_assignment/control_module.v`
+- `/home/UshasiDas/digital/rtl/rtl_assignment/analog_module.v`
+- `/home/UshasiDas/digital/rtl/rtl_assignment/reset_synchronizer.v`
+- `/home/UshasiDas/digital/rtl/rtl_assignment/top_module.v`
+
+**Testbench:**
+- `/home/SharanyaShetty/digital/JUNE/CONTROLLER_ASSIGNMENT/ushashi/regression_setup/test_bench/top_test.v`
 
